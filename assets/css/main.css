@@ -536,7 +536,7 @@ select:focus {
 }
 
 select option {
-    color: #2f323a;
+    color: #ff00ff;
 }
 
 hr {

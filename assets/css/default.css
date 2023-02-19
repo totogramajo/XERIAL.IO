@@ -52,9 +52,9 @@
     --black-color: #040402;
     --dark-grey-color: #191919;
 
-    --primary-t-color: #2f323a;
+    --primary-t-color: #ff00ff;
     --secondary-t-color: #f5f5f5; 
-    --primary-p-color: #6f6f6f;
+    --primary-p-color: #f4f4f4;
     --secondary-p-color: #8e8e8e;
     --primary-b-color: #f5f5f5;
     --primary-l-color: rgba(0, 0, 0, .25);
@@ -65,7 +65,7 @@
 
     --primary-bg-color: #f5f5f5;
     --primary-bg-color-2: #eeeeee;
-    --primary-bg-color-3: #e5e5e5;
+    --primary-bg-color-3: #040402;
 
     --secondary-bg-color: #040402;
     --secondary-bg-color-2: #111111;
