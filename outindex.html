@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <!-- ==============================================
+        Basic Page Needs
+        =============================================== -->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+
+        <title>XERIAL - Developer</title>
+
+        <meta name="description" content="Launch your game infrastructure">
+        <meta name="subject" content="Launch your game infrastructure">
+        <meta name="author" content="Codings">
+
+        <!-- ==============================================
+        Favicons
+        =============================================== -->
+        <link rel="shortcut icon" href="assets/images/Xerial/favicon/favicon.ico">
+        <link rel="apple-touch-icon" href="assets/images/Xerial/favicon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/Xerial/favicon/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/images/Xerial/favicon/apple-touch-icon.png">
+
+        <!-- ==============================================
+        Vendor Stylesheet
+        =============================================== -->
+        <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/vendor/slider.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="assets/css/vendor/icons.min.css">
+        <link rel="stylesheet" href="assets/css/vendor/animation.min.css">
+        <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
+        <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css">
+
+        <!-- ==============================================
+        Custom Stylesheet
+        =============================================== -->
+        <link rel="stylesheet" href="assets/css/default.css">
+        <link rel="stylesheet" href="assets/css/theme-light-green.css">
+
+        <script src="https://kit.fontawesome.com/144f7c933c.js" crossorigin="anonymous"></script>
+
+        <!-- ==============================================
+        Theme Settings
+        =============================================== -->
+        <style>
+            :root {
+                --header-bg-color: #111111;
+                --nav-item-color: #f5f5f5;
+                --top-nav-item-color: #f5f5f5;
+                --hero-bg-color: #040402;
+
+                --section-1-bg-color: #040402;
+                --section-2-bg-color: #040402;
+                --section-3-bg-color: #040402;
+                --section-4-bg-color: #040402;
+                --section-5-bg-color: #040402;
+                --section-6-bg-color: #040402;
+                
+                --footer-bg-color: #111111;
+            }
+        </style>
+        
+    </head>
+
+    <body class="home theme-mode-dark">
+
+        <!-- Header -->
+        <header id="header">
+
+            <!-- Navbar -->
+            <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
+                <div class="container header">
+
+                    <!-- Navbar Brand-->
+                    <a class="navbar-brand"  href="index.html">
+                       
+                        
+                            
+                       <img style="width: 80px; height: 80px;" src="assets/images/Xerial/lxerial.png" alt="Leverage">
+                       
+                    </a>
+
+                    <!-- Nav holder -->
+                    <div class="ml-auto"></div>
+
+                    <!-- Navbar Items -->
+                    <ul class="navbar-nav items">
+                        
+                        <li class="nav-item">
+                            <a href="#slider" class="nav-link smooth-anchor">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Tutorials.html" class="nav-link smooth-anchoer">Tutorials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#services" class="nav-link smooth-anchor">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link smooth-anchor">Documents</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Blockchain.html" class="nav-link smooth-anchorr">+Blockchain</a>
+                        </li>
+                    </ul>
+
+                    <!-- Navbar Icons -->
+                    <ul class="navbar-nav icons">
+                        
+                        <li class="nav-item social">
+                            <a href="https://twitter.com/xerial_io" target="_blank" class="nav-link"><i class="icon-social-twitter"></i></a>
+                        </li>
+                        <li class="nav-item social">
+                            <a href="https://discord.gg/ZSSWp7pqd2" target="_blank"  class="nav-link"><i class="fa-brands fa-discord"></i></a>
+                        </li>
+                    </ul>
+
+                    <!-- Navbar Toggle -->
+                    <!-- <ul class="navbar-nav toggle">
+                        <li class="nav-item social">
+                            <a href="https://discord.gg/ZSSWp7pqd2" target="_blank"  class="nav-link"><i class="fa-brands fa-discord"></i></a>
+                        </li>
+                        <li class="nav-item social">
+                            <a href="https://twitter.com/xerial_io" target="_blank"  class="nav-link"><i class="icon-social-twitter"></i></a>
+                        </li>
+                        
+                    </ul> -->
+
+                    <!-- Navbar Action -->
+                    <ul class="navbar-item action">
+                        <li class="nav-item ml-3">
+                            <a href="https://staging.developer.xerial.io/new-project" target="_blank" class="btn ml-lg-auto dark-button smooth-anchorr">Start Building</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+<!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+    
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('ekmxefw7fxxr');
+    </script>
+    <!-- End of Async Drift Code -->
+
+        </header>
+
+        
+
+        
+
+        <!-- Hero -->
+        <section id="slider" class="hero p-0">
+            <div class="swiper-container no-slider animation slider-h-100">
+                <div class="swiper-wrapper">
+
+                    <!-- Item 1 -->
+                    <div class="swiper-slide slide-center">
+
+                        <video class="full-image" data-mask="70" playsinline autoplay muted loop>
+                            <source src="assets/images/Xerial/video/1video.mov" type="video/mp4" />
+                        </video>
+                        <!-- 
+                            Suggestion: Add a video to your assets folder and configure it here.
+
+                            <video type="video/mp4" class="full-image" data-mask="70" src="assets/videos/yourvideo.mp4" autoplay muted loop></video> 
+                        -->
+
+                        <div class="slide-content row">
+                            <div class="col-12 d-flex inner">
+                                <div class="center align-self-center text-center">
+                                    <h1 style="font-size: 60px;" data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Connect your Game to Web3 effortlessly</h1>
+                                    <p style="font-size: 20px;" data-aos="zoom-out-up" data-aos-delay="800" class="descriptiosn">Launch and scale your game in days, not months, with a competitive infrastructure</p>
+                                    <a href="https://staging.developer.xerial.io/new-project" target="_blank" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchorr ml-auto mr-auto ml-md-00 mt-4 btn dark-button nav-link">Create your project</a>
+                                    <a href="Tutorials.html" target="_blank" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchorr ml-auto mr-auto ml-md-00 mt-4 btn dark-button">Tutorials</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- About [video] -->
+        <section id="video" class="section-1 highlights image-center featured left">
+            <div class="container smaller">
+                <div class="row text-center intro">
+                    <div class="col-12">
+                        <h2 style="font-size: 35px; color: #f4f4f4;">Designed for game developers</h2>
+                        <!-- <p class="text-max-800">How it works? check out our demo</p> -->
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-12 gallery">
+                        <a href="https://www.youtube.com/watch?v=Fb1amxtXntM" class="square-image d-flex justify-content-center align-items-center">
+                            <i class="icon bigger icon-control-play"></i>
+                            <img src="assets/images/Xerial/demo.png" class="fit-image" alt="Video Demo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section-2 counter skills featured right">
+            <div class="container">
+                <div class="row text-center intro">
+                    <div class="col-12">
+                        <h2 style="color: #f4f4f4;">We speak your language</h2>
+                        <p class="text-max-800">We understand that your language is complex. That's why our integration is easy and intuitive</p>
+                    </div>
+                </div>
+                <!-- Partners -->
+        
+            <div class="overflow-holder">
+                <div class="container">
+                    <div class="swiper-container min-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide-center item">
+                                <img src="assets/images/Xerial/unreal (1).svg" class="fit-image w-85" alt="Fit Image">
+                            </div>
+                            <div class="swiper-slide slide-center item">
+                                <img src="assets/images/Xerial/unity.svg" class="fit-image w-85" alt="Fit Image">
+                            </div>
+                            <div class="swiper-slide slide-center item">
+                                <img src="assets/images/Xerial/soon.svg" class="fit-image w-85" alt="Fit Image">
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+
+         <!-- Services -->
+         <section id="services" class="section-4 offers featured right">
+            <div class="container">
+                <div class="row text-center intro">
+                    <div  class="col-12">
+                        <h2 style="color: #f4f4f4;">Our Services</h2>
+                        <p style="color: #8e8e8e;" class="text-max-800">Bring your game to the web 3 quickly and easily with our all-in-one infrastructure</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center items">
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div style="background-color: #191919;" class="card featured">
+                            <i style="color: #ff00ff;" class="fa-solid fa-cubes fa-2x"></i>
+                            <h4 style="color: #f4f4f4;">Web 3 Infraestructure</h4>
+                            <p>We build the infrastructure so you don't have to. Focus on your game</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div style="background-color: #191919;" class="card">
+                            <i style="color: #ff00ff;" class="fa-solid fa-cart-shopping fa-2x"></i>
+                            <h4 style="color: #f4f4f4;" >Marketplace & Own token</h4>
+                            <p>Create your own personalized NO-CODE marketplace</p> 
+                            
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div style="background-color: #191919;" class="card">
+                            <i style="color: #ff00ff;" class="fa-solid fa-wallet fa-2x"></i>
+                            <h4 style="color: #f4f4f4;">Wallet non-custodial</h4>
+                            <p>No need to worry about onboarding non-crypto users</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div style="background-color: #191919;" class="card">
+                            <i style="color: #ff00ff;" class="fa-solid fa-gamepad fa-2x"></i>
+                            <h4 style="font-size: 17px; color: #f4f4f4;">Enhance your user experience</h4>
+                            <p>A seamless player experience for your users</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div style="background-color: #191919;" class="card">
+                            
+                            <i style="color: #ff00ff;" class="fa-solid fa-code fa-2x"></i>
+                            <h4 style="color: #f4f4f4;">APIs & SDKs</h4>
+                            <p>Don’t worry about being an expert at Solidity. Launch in days</p> 
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div style="background-color: #191919;" class="card featured">
+                            <i style="color: #ff00ff;" class="fa-solid fa-chart-simple fa-2x"></i>
+                            <h4 style="color: #f4f4f4;">Dashboard & Metrics</h4>
+                            <p>Understand your user and their navigation patterns</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section-2 odd counter skills featured right">
+            <div class="container">
+                <div class="row text-center intro">
+                    <div class="col-12">
+                        <h2>4 steps to connect</h2>
+                        
+                    </div>
+                </div>
+                <div data-aos-id="counter" data-aos="fade-up" data-aos-delay="200" class="row justify-content-center text-center items">
+                    <div class="col-12 col-md-6 col-lg-3 item">
+                        <div data-percent="25" class="radial">
+                            <span></span>
+                        </div>
+                        <h4>Register</h4>
+                        <p>Register your name and brand with intuitive and simple steps</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 item">
+                        <div data-percent="50" class="radial">
+                            <span></span>
+                        </div>
+                        <h4>Customize your store</h4>
+                        <p>Make your store unique: Your logo, your banner, colors and more</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 item">
+                        <div data-percent="75" class="radial">
+                            <span></span>
+                        </div>
+                        <h4>Add your products</h4>
+                        <p>Register your assets, highlight their features</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 item">
+                        <div data-percent="100" class="radial">
+                            <span></span>
+                        </div>
+                        <h4>Payment methods</h4>
+                        <p>Choose which payment methods you want to accept</p>
+                    </div>
+                    <!-- <div class="col-12 col-md-6 col-lg-3 item">
+                        <div data-percent="100" class="radial">
+                            <span></span>
+                        </div>
+                        <h4>Payment methods</h4>
+                        <p>Choose which payment methods you want to accept</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 item">
+                        <div data-percent="100" class="radial">
+                            <span></span>
+                        </div>
+                        <h4>Payment methods</h4>
+                        <p>Choose which payment methods you want to accept</p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 item"> <br>
+                        <br>
+                        <a href="Blockchain.html" target="_blank"  class="smooth-anchorr ml-auto mr-auto mt-4 btn dark-button nav-link">Start your free integration</a>
+                            <span></span>
+                        </div>
+                       
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-2 highlights image-right">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 align-self-center text-center text-md-left">
+                        <div class="row intro">
+                            <div class="col-12 p-0">
+                                <h2 class="featured alt" style="color: #f4f4f4;">Payments Solutions</h2>
+                                <p style="color: #8e8e8e;">Complete payment solution that manages your game or marketplace's entire checkout process </p>
+                            </div>
+                        </div>
+                        <div class="row items">
+                            <div class="col-12 p-0">
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-badge"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 style="color: #f4f4f4;">Own business account</h4>
+                                        <p>Create your own virtual wallet and collect payments directly from your users</p>
+                                    </div>  
+                                </div>
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i class="icon icon-briefcase"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4 style="color: #f4f4f4;">Types of payments</h4>
+                                        <p>Accepts all the major payment methods, including ACH, Apple Pay, Google Pay, SEPA, Faster Payments, Wire Transfers, Open Banking & Cryptocurrency</p>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery col-12 col-md-6">
+                        <video class="full-image"  playsinline autoplay muted loop>
+                            <source src="assets/videos/ink.mp4" type="video/mp4" />
+                        </video> 
+    
+                        
+    
+                            <video type="video/mp4" class="full-image" src="assets/images/Xerial/video/pay.video.mp4" autoplay muted loop></video> 
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio -->
+        <section id="portfolio" class="section-3  offers secondary featured left">
+            <div class="container">
+                <div class="row text-center intro">
+                    <div class="col-12">
+                        <h2 style="color: #f4f4f4;">Check Out Our Documents</h2>
+                        <p style="color: #8e8e8e;" class="text-max-800">Easy and Intuitive Documentation. You don't need to be an expert in these topics. We offer completely free consultancy</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center text-center items">
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div style="background-color: #191919;" class="card featured">
+                            <h4 style="color: #f4f4f4;">APIs & SKDs</h4>
+                            <p>Build in days and not months. Simple, powerful and scalable</p>
+                            <div class="gallery">
+                                <a href="assets/images/Xerial/apis.svg">
+                                    <img src="assets/images/Xerial/apis.svg" alt="Visual reference">
+                                </a>
+                                
+                            </div>
+                            <a href="APIs-SDKs.html" target="_blank" style="justify-content: center; justify-items: center; " class="smooth-anchorr ml-auto mr-auto mt-4 btn dark-button nav-link">More</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div style="background-color: #191919;" class="card">
+                            <h4 style="color: #f4f4f4;">Unreal Plugin</h4>
+                            <p>Simple and Accessible for Everyone <br><br></p>
+                            <div class="gallery">
+                                <a href="assets/images/Xerial/unrealp.svg">
+                                    <img src="assets/images/Xerial/unrealp.svg" alt="Visual reference">
+                                </a>
+                            </div>
+                            <a href="https://staging.developer.xerial.io/new-project" target="_blank" style="justify-content: center; justify-items: center; " class="smooth-anchorr ml-auto mr-auto mt-4 btn dark-button nav-link">More</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 item">
+                        <div style="background-color: #191919;" class="card featured">
+                            <h4 style="color: #f4f4f4;">Unity Plugin</h4>
+                            <p>Coming Soon <BR></BR></p>
+                            <div class="gallery">
+                                <a href="assets/images/Xerial/coming soon.svg">
+                                    <img src="assets/images/Xerial/coming soon.svg" alt="Visual reference">
+                                </a>
+                            </div>
+                            <a href="#" target="_blank" style="justify-content: center; justify-items: center; " class="smooth-anchorr ml-auto mr-auto mt-4 btn dark-button nav-link">Coming Soon</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- About [video] -->
+        <section id="blockchain" class="section-2 odd highlights image-left">
+            <div class="container">
+                <div class="row">
+                    <div class="gallery col-12 col-md-6">
+                        
+                            
+                            <img src="assets/images/Xerial/web2.5.svg" class="fit-image" alt="Institutional">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 pl-md-5 align-self-center text-center text-md-left">
+                        <div class="row intro">
+                            <div class="col-12 p-0">
+                                <h2 class="featured alt">Web 2.5</h2>
+                                <p style="color: #8e8e8e;">Using blockchain technology has never been easier. With our service, you don't need to have any prior knowledge of blockchain. Our processes are designed to be just as user-friendly as the ones you're used to with web 2.0, but with the added benefits of blockchain. We take care of all the technical details so you can enjoy the benefits without the hassle</p>
+                            </div>
+                        </div>
+                        <div class="row items">
+                            <div class="col-12 p-00">
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i style="color: #ff00ff;" class="fa-solid fa-user-plus fa-2x"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4>Onboard non-crypto users</h4>
+                                        
+                                    </div>  
+                                </div>
+                                <div class="row item">
+                                    <div class="col-12 col-md-2 align-self-center">
+                                        <i style="color: #ff00ff;" class="fa-solid fa-wallet fa-2x"></i>
+                                    </div>
+                                    <div class="col-12 col-md-9 align-self-center">
+                                        <h4>Wallet non-custodial</h4>
+                                        
+                                    </div>  
+                                    <a href="Blockchain.html" target="_blank"  class="smooth-anchorr ml-auto mr-auto mt-4 btn dark-button nav-link">Why blockchain gaming? Click to find out</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+
+         <!-- Team -->
+         <section id="team" class="section-4 carousel featured card-white">
+            <div class="overflow-holder">
+                <div class="container">
+                    <div class="row text-center intro">
+                        <div class="col-12">
+                            <h2 class="super effect-static-text">Meet our Team</h2>
+                            <p style="color: #8e8e8e;" class="text-max-800">Our team will help you define a stand-out creative direction and will translate it into visual assets that will resonate with your audience</p>
+                        </div>
+                    </div>
+                    <div class="swiper-container mid-slider-simple items">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide-center text-center item">
+                                <div style="background-color: #191919;" class="row card">
+                                    <div  class="col-12">
+                                        <img src="assets/images/Xerial/team/4.png" alt="Mary Evans" class="person">
+                                        <h4 style="color: #f4f4f4;">Santiago Gramajo</h4>
+                                        <p>CEO / Co-Founder</p>
+                                        <ul class="navbar-nav social share-list ml-auto">
+                                            <li class="nav-item">
+                                                <a href="https://www.linkedin.com/in/santiago-gramajo-07826b145/" target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="https://twitter.com/tootchain" target="_blank" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slide-center text-center item">
+                                <div style="background-color: #191919;" class="row card">
+                                    <div  class="col-12">
+                                        <img src="assets/images/Xerial/team/2.png" alt="Mary Evans" class="person">
+                                        <h4 style="color: #f4f4f4;">Facundo Gramajo</h4>
+                                        <p>CPO / Co-Founder</p>
+                                        <ul class="navbar-nav social share-list ml-auto">
+                                            
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="https://www.linkedin.com/in/facundo-gramajo-018598223/" target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="https://twitter.com/facajoker" target="_blank" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slide-center text-center item">
+                                <div style="background-color: #191919;" class="row card">
+                                    <div  class="col-12">
+                                        <img src="assets/images/Xerial/team/1.png" alt="Mary Evans" class="person">
+                                        <h4 style="color: #f4f4f4;">Federico Baña</h4>
+                                        <p>CTO / Co-Founder</p>
+                                        <ul class="navbar-nav social share-list ml-auto">
+                                            
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="https://www.linkedin.com/in/banafederico/" target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="https://twitter.com/banafederico" target="_blank" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slide-center text-center item">
+                                <div style="background-color: #191919;" class="row card">
+                                    <div  class="col-12">
+                                        <img src="assets/images/Xerial/team/3.png" alt="Mary Evans" class="person">
+                                        <h4 style="color: #f4f4f4;">Pablo Simon Caserino</h4>
+                                        <p>Advisor</p>
+                                        <p>Serial Entrepreneur</p>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide slide-center text-center item">
+                                <div style="background-color: #191919;" class="row card">
+                                    <div  class="col-12">
+                                        <img src="assets/images/Xerial/team/5.png" alt="Mary Evans" class="person">
+                                        <h4 style="color: #f4f4f4;">Ruben Sosenke</h4>
+                                        <p>Advisor</p>
+                                        <p>Co-Founder Pedidos Ya</p>
+                                            
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="odd">
+
+            <!-- Footer [links] -->
+            <section id="footer" class="footer">
+                <div class="container">
+                    <div class="row items footer-widget">
+                        <div class="col-12 col-lg-3 p-0">
+                            <div class="row">
+                                <div class="branding col-12 p-3 text-center text-lg-left item">
+                                    <div class="brand">
+                                        <a href="index.html" class="logo">
+                                            <img style="width: 80px; height: 80px;" src="assets/images/Xerial/lxerial.png" alt="Leverage">
+                                        </a>
+                                    </div>
+                                    <p>We are your bridge to web 3 & Blockchain<br></p>
+                                    <ul class="navbar-nav social share-list mt-0 ml-auto">
+                                        
+                                        <li class="nav-item">
+                                            <a href="https://www.linkedin.com/company/xerial/?viewAsMember=true" target="_blank" class="nav-link"><i class="icon-social-linkedin"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://twitter.com/xerial_io" target="_blank" class="nav-link"><i class="icon-social-twitter"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://discord.gg/ZSSWp7pqd2" target="_blank" class="nav-link"><i class="fa-brands fa-discord"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-9 p-0">                            
+                            <div class="row">
+                                <div class="col-12 col-lg-4 p-3 text-center text-lg-left item">
+                                    <h4 class="title">Get in Touch</h4>
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                <i class="icon-phone mr-2"></i>
+                                                Coming Soon
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                <i class="icon-envelope mr-2"></i>
+                                                info@xerial.io
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#" class="nav-link">
+                                                <i class="icon-location-pin mr-2"></i>
+                                                United States, Delaware
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://staging.developer.xerial.io/contact" target="_blank" class="mt-4 mr-auto ml-auto ml-lg-0 btn dark-button smooth-anchorr"><i class="icon-speech"></i>SEND A MESSAGE</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-4 p-3 text-center text-lg-left item">
+                                    <h4 class="title">Our Services</h4>
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item">
+                                            <a href="#services" class="nav-link">Blockchain Solutions</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#services" class="nav-link">Own marketplace</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#services" class="nav-link">Dashboards & Metrics</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#services" class="nav-link">Payments Solutions</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#services" class="nav-link">Compliance Solutions</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-lg-4 p-3 text-center text-lg-left item">
+                                    <h4 class="title">Popular Tags</h4>
+                                    <a href="Tutorials.html" class="badge tag">Tutorials</a>
+                                <a href="#about" class="badge tag">Payments</a>
+                                <a href="#team" class="badge tag">Team</a>
+                                <a href="#blockchain" class="badge tag">Web 2.5</a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Copyright -->
+            <section id="copyright" class="p-3 copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 p-3 text-center text-lg-left">
+                            <p>We are your point of access</p>
+                            <!--
+                                Suggestion: Replace the text above with a description of your website.
+                             -->
+                        </div>
+                        <div class="col-12 col-md-6 p-3 text-center text-lg-right">
+                            <p>© 2023 Powered by <a href="https://xerial.io/" target="_blank">XERIAL</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </footer>
+
+        
+
+        
+
+        
+
+       
+
+        <!-- Scroll [to top] -->
+        <div id="scroll-to-top" class="scroll-to-top">
+            <a href="#header" class="smooth-anchor">
+                <i class="icon-arrow-up"></i>
+            </a>
+        </div>        
+        
+        <!-- ==============================================
+        Google reCAPTCHA // Put your site key here
+        =============================================== -->
+        <script src="https://www.google.com/recaptcha/api.js?render=6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7"></script>
+
+        <!-- ==============================================
+        Vendor Scripts
+        =============================================== -->
+        <script src="assets/js/vendor/jquery.min.js"></script>
+        <script src="assets/js/vendor/jquery.easing.min.js"></script>
+        <script src="assets/js/vendor/jquery.inview.min.js"></script>
+        <script src="assets/js/vendor/popper.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/ponyfill.min.js"></script>
+        <script src="assets/js/vendor/slider.min.js"></script>
+        <script src="assets/js/vendor/animation.min.js"></script>
+        <script src="assets/js/vendor/progress-radial.min.js"></script>
+        <script src="assets/js/vendor/bricklayer.min.js"></script>
+        <script src="assets/js/vendor/gallery.min.js"></script>
+        <script src="assets/js/vendor/shuffle.min.js"></script>
+        <script src="assets/js/vendor/cookie-notice.min.js"></script>
+        <script src="assets/js/vendor/particles.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <!-- #endregion Global ========================= -->
+
+    </body>
+</html>
